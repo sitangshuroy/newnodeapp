@@ -27,15 +27,15 @@ class App extends Component {
           <p>
             {'Learn '}
             <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-              React
+              React 1
             </a>
             {', '}
             <a href="https://expressjs.com" target="_blank" rel="noopener noreferrer">
-              Express
+              Express 1
             </a>
             {', and '}
             <a href="https://kubernetes.io" target="_blank" rel="noopener noreferrer">
-              Kubernetes
+              Kubernetes 1
             </a>
           </p>
           <p>

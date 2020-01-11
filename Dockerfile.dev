@@ -1,0 +1,11 @@
+FROM node:alpine
+
+WORKDIR '/app'
+
+COPY package.json .
+RUN /bin/sh -c "apk add --no-cache bash"
+RUN npm install
+
+COPY . .
+
+CMD ["npm", "run", "start"]
